@@ -86,7 +86,7 @@ EOF
         if (is_file($filename)) {
             $files = array($filename);
         } elseif (is_dir($filename)) {
-            $files = Finder::create()->files()->in($filename)->name('*.twig');
+            $files = Finder::create()->files()->in($filename)->name('/\*.(twig|tpl)$/');
         }
 
         $errors = 0;

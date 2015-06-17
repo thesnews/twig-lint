@@ -1,8 +1,8 @@
 {
-    "name": "asm89/twig-lint",
+    "name": "thesnews/twig-lint",
     "description": "Standalone twig linter.",
     "keywords": ["twig", "lint"],
-    "homepage": "https://github.com/asm89/twig-lint",
+    "homepage": "https://github.com/thesnews/twig-lint",
     "type": "library",
     "license": "MIT",
     "authors": [
